@@ -12,6 +12,7 @@
   a{
     text-decoration: none;
 }
+/* header section */
   .header{
       background-color: var(--lightBlueColor);
       color: var(--lightColor);
@@ -29,6 +30,9 @@
     margin: 0 1.5rem;
   }
 
+  /* end of header section */
+
+  /* hero image banner */
   .banner{
       background-image: url(../images/hero.jpg);
       height: 70vw;
@@ -63,6 +67,10 @@
       cursor: pointer;
   }
 
+  /* end of banner */
+
+
+  /* gallery */
   .slider{
       display: flex;
       justify-content: space-around;
@@ -184,6 +192,10 @@
       color: var(--lightColor);
   }
 
+  /* end of gallery */
+
+
+  /* more explore */
   .container{
       position: relative;
       background-color: #f6e4d9;
@@ -264,6 +276,10 @@
       font-family: 'Roboto', sans-serif;
       
   }
+
+  /* end of more explore */
+
+  /* footer */
   .footer{
       display: flex;
       flex-direction: row;
@@ -284,3 +300,5 @@
   .fa-globe{
       margin: 0 .5rem;
   }
+
+  /* end of footer */

@@ -1,34 +1,7 @@
-/* Small devices (landscape phones, 576px and up) */
-/* @media (min-width: 576px) {
-.slider{
-    display: flex;
-    flex-direction: column;
-}
-.container{
-    display: flex;
-    flex-direction:column;
-}
-.big-slider{
-    width: 100%;
-}
-.blackLayer{
-display: none;
-}
-.big-slider h1{
-    left: 250px;
-    bottom: 130px;
-    color: var(--lightColor);
-    font-size: 3.5rem;
-    text-shadow: 0px 2px var(--blackColor);
-    font-family: 'Roboto', sans-serif;
-}
-} */
-
-/* Medium devices (tablets, 768px and up) */
-/* @media (min-width: 768px) {
+@media screen and (max-width: 768px) {
     .slider{
         display: flex;
-        flex-direction: column;
+        flex-direction: column!important;
     }
     .slider-img-1, .slider-img-2, .slider-img-3{
         display: flex;
@@ -39,23 +12,59 @@ display: none;
         display: flex;
         flex-direction:row;
     }
+    .blackLayer{
+        display: none;
+        }
 
-} */
+}
+@media screen and (max-width: 992px) {
+    .slider{
+        display: flex;
+        flex-direction: row;
+    }
+    .big-slider h1{
+        position: absolute;
+        left: 0;
+        bottom: 98px;
+        color: var(--lightColor);
+        font-size: 3.5rem;
+        text-shadow: 0px 2px var(--blackColor);
+        font-family: 'Roboto', sans-serif;
+    }
 
-/* Large devices (desktops, 992px and up) */
-/* @media (min-width: 992px) {
+    .big-slider p{
+        position: absolute;
+        left: 0;
+        bottom: 90px;  
+        color: var(--lightColor);
+        font-size: 1rem;
+        text-shadow: 0px 2px var(--blackColor);
+        font-family: 'Roboto', sans-serif;
+      }
+      .btn-big-img{
+        position: absolute;
+        left: 0;
+        bottom: 30px;
+        border: none;
+        border-radius: 3rem;
+        padding: 1rem;
+        margin: 1rem 0;
+        cursor: pointer;
+    }
+
+    .blackLayer{
+        display: none;
+        }
+        .content{
+            display: flex;
+            flex-direction: column;
+        }
+
+}
+@media screen and (min-width: 1200px) {
     .slider{
         display: flex;
         flex-direction: row;
     }
 
-} */
-
-/* Extra large devices (large desktops, 1200px and up) */
-/* @media (min-width: 1200px) {
-    .slider{
-        display: flex;
-        flex-direction: row;
-    }
-
-} */
+}
