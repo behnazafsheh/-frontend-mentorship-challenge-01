@@ -61,10 +61,3 @@
         }
 
 }
-@media screen and (min-width: 1200px) {
-    .slider{
-        display: flex;
-        flex-direction: row;
-    }
-
-}
